@@ -1,0 +1,33 @@
+[14-Dec-2020 12:31:14 UTC] PHP Warning:  require_once(E:/wamp64/www/e-commerce/upload/system/startup.php): failed to open stream: No such file or directory in /home/k8953244/proto.toracycle.com/admin/index.php on line 17
+[14-Dec-2020 12:31:14 UTC] PHP Fatal error:  require_once(): Failed opening required 'E:/wamp64/www/e-commerce/upload/system/startup.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/k8953244/proto.toracycle.com/admin/index.php on line 17
+[14-Dec-2020 12:32:29 UTC] PHP Warning:  require_once(E:/wamp64/www/e-commerce/upload/system/startup.php): failed to open stream: No such file or directory in /home/k8953244/proto.toracycle.com/admin/index.php on line 17
+[14-Dec-2020 12:32:29 UTC] PHP Fatal error:  require_once(): Failed opening required 'E:/wamp64/www/e-commerce/upload/system/startup.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/k8953244/proto.toracycle.com/admin/index.php on line 17
+[14-Dec-2020 12:32:30 UTC] PHP Warning:  require_once(E:/wamp64/www/e-commerce/upload/system/startup.php): failed to open stream: No such file or directory in /home/k8953244/proto.toracycle.com/admin/index.php on line 17
+[14-Dec-2020 12:32:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'E:/wamp64/www/e-commerce/upload/system/startup.php' (include_path='.:/opt/alt/php73/usr/share/pear') in /home/k8953244/proto.toracycle.com/admin/index.php on line 17
+[11-Jan-2021 06:08:35 UTC] PHP Fatal error:  Uncaught Exception: Error: Could not load template /home/k8953244/public_html/admin/view/template/extension/shipping/hitdhlexpress.twig! in /home/k8953244/public_html/system/library/template/twig.php:17
+Stack trace:
+#0 /home/k8953244/public_html/system/library/template.php(51): Template\Twig->render('extension/shipp...', '')
+#1 /home/k8953244/public_html/system/storage/modification/system/engine/loader.php(125): Template->render('extension/shipp...', '')
+#2 /home/k8953244/public_html/admin/controller/extension/shipping/hitdhlexpress.php(917): Loader->view('extension/shipp...', Array)
+#3 /home/k8953244/public_html/system/storage/modification/system/engine/action.php(79): ControllerExtensionShippinghitdhlexpress->index()
+#4 /home/k8953244/public_html/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#5 /home/k8953244/public_html/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#6 /home/k8953244/public_html/system/engine/router.php(67): Ac in /home/k8953244/public_html/system/library/template/twig.php on line 17
+[18-Jan-2021 16:38:33 UTC] PHP Fatal error:  Uncaught Exception: Error: Could not load template /home/k8953244/public_html/admin/view/template/extension/shipping/hitdhlexpress.twig! in /home/k8953244/public_html/system/library/template/twig.php:17
+Stack trace:
+#0 /home/k8953244/public_html/system/library/template.php(51): Template\Twig->render('extension/shipp...', '')
+#1 /home/k8953244/public_html/system/storage/modification/system/engine/loader.php(125): Template->render('extension/shipp...', '')
+#2 /home/k8953244/public_html/admin/controller/extension/shipping/hitdhlexpress.php(917): Loader->view('extension/shipp...', Array)
+#3 /home/k8953244/public_html/system/storage/modification/system/engine/action.php(79): ControllerExtensionShippinghitdhlexpress->index()
+#4 /home/k8953244/public_html/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#5 /home/k8953244/public_html/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#6 /home/k8953244/public_html/system/engine/router.php(67): Ac in /home/k8953244/public_html/system/library/template/twig.php on line 17
+[18-Jan-2021 16:38:59 UTC] PHP Fatal error:  Uncaught Exception: Error: Could not load template /home/k8953244/public_html/admin/view/template/extension/shipping/hitdhlexpress.twig! in /home/k8953244/public_html/system/library/template/twig.php:17
+Stack trace:
+#0 /home/k8953244/public_html/system/library/template.php(51): Template\Twig->render('extension/shipp...', '')
+#1 /home/k8953244/public_html/system/storage/modification/system/engine/loader.php(125): Template->render('extension/shipp...', '')
+#2 /home/k8953244/public_html/admin/controller/extension/shipping/hitdhlexpress.php(917): Loader->view('extension/shipp...', Array)
+#3 /home/k8953244/public_html/system/storage/modification/system/engine/action.php(79): ControllerExtensionShippinghitdhlexpress->index()
+#4 /home/k8953244/public_html/admin/controller/startup/router.php(26): Action->execute(Object(Registry), Array)
+#5 /home/k8953244/public_html/system/storage/modification/system/engine/action.php(79): ControllerStartupRouter->index()
+#6 /home/k8953244/public_html/system/engine/router.php(67): Ac in /home/k8953244/public_html/system/library/template/twig.php on line 17
